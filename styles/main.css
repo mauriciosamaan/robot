@@ -1,0 +1,89 @@
+.face {
+  width: 200px;
+  position: relative;
+  background: gray;
+  left: 400px;
+  height: 200px;
+}
+
+.left-eye {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: black;
+  top: 30px;
+  left: 30px;
+  border-radius: 20px;
+  transform:rotatex(180deg);
+  transition-duration:1s;
+  transition-property: transform;
+  animation-iteration-count: infinite;
+ 
+}
+
+.right-eye {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: black;
+  top: 30px;
+  right: 30px;
+  border-radius: 20px;
+}
+
+.mouth {
+  position: absolute;
+  width:150px;
+  height:10px;
+  background:black;
+  bottom:95px;
+  left:25px;
+}
+
+.body {
+    position:relative;
+    width:400px;
+    height:500px;
+    left:300px;
+    background:darkgray;
+}
+
+.left-arm {
+    position:absolute;
+    top:50px;
+    left:-250px;
+    width:400px;
+    height:80px;
+    background:lightgray;
+}
+
+
+.right-arm {
+    position:absolute;
+    top:50px;
+    right:-250px;
+    width:400px;
+    height:80px;
+    background:lightgray;
+}
+
+.left-leg {
+    position:absolute;
+    bottom:-100px;
+    left:50px;
+    width:100px;
+    height:200px;
+    background:lightgray;
+}
+
+.right-leg {
+    position:absolute;
+    bottom:-100px;
+    right:50px;
+    width:100px;
+    height:200px;
+    background:lightgray;
+}
+
+/* Animaciones */
+
